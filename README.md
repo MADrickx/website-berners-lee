@@ -38,11 +38,11 @@ node-sass sass/screen.scss css/screen.css -o --watch
 
 1. __*node-sass*__ : it calls the newly added package to your terminal.
 
-2. __*sass/screen.scss*__ : this argument shows node-sass the directory from where it wil fetch the data to "feed" the transpiler.
+2. __*sass/screen.scss*__ : this argument tells node-sass the directory from where it will fetch the data to "feed" the transpiler.
 
-3. __*css/screen.css*__ : this argument shows node-sass the output directory, were the transpiled file will go when it's finished to transpile.
+3. __*css/screen.css*__ : this argument tells node-sass the output directory, were the transpiled file will go when it's finished to transpile.
 
-4. __*-o*__  : this flag will specify that the argument before this flag is an output directory. 
+4. __*-o*__  : this flag will specify that the argument before this flag is an output directory, if ommited the output will be sent to stdout(?). 
 
 5. __*--watch*__  : this flag will make node-sass stay put and watch your files, and every time there is a modification, it will sees it.  
 
