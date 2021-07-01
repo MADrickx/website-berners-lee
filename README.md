@@ -41,4 +41,6 @@ the --watch flag will stay put and watch your files, and every time there is a m
 
 you're all set, everytime you're gonna save/modify your screen.scss (or the files imported inside your screen.scss) it will tranbspile all your files into a .css file inside your css/ directory.  
 
-/!\ Watch out, I showed you how *I* did it with the files named __my way__. If your files/directory have other names, 
+/!\ Watch out, I showed you how *I* did it with the files named __my way__. If your files/directory have other names, modify your code accordingly, or just use the same tree as me.
+
+Thanks my lads, now I'm gonne drink a cold one with the boïs!
