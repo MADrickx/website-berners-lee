@@ -11,10 +11,12 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 .l-main > section {
-  width: 100%;
-  margin: 2rem 0; }
+  width: 90%;
+  margin: 2rem 5%;
+  box-sizing: border-box; }
 
 .l-main > section > div {
+  box-sizing: border-box;
   max-width: 768px;
   margin: auto;
   background-color: white;
@@ -38,8 +40,9 @@ body {
   border: 1px solid #f4c9c9; }
 
 .l-header {
-  width: 100%;
-  margin: 2rem 0; }
+  width: 90%;
+  margin: 2rem 5%;
+  box-sizing: border-box; }
 
 .l-header-content {
   box-sizing: border-box;

@@ -1,9 +1,11 @@
 .l-main > section {
-    width:100%;
-    margin: 2rem 0;
+    width:90%;
+    margin: 2rem 5%;
+    box-sizing: border-box;
 }
 
 .l-main > section > div{
+    box-sizing: border-box;
     max-width: $small-width;
     margin: auto;
     background-color: white;
