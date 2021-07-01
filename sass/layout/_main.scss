@@ -1,0 +1,14 @@
+.l-main > section {
+    width:100%;
+    margin: 2rem 0;
+}
+
+.l-main > section > div{
+    max-width: $small-width;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}

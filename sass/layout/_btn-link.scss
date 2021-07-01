@@ -1,0 +1,17 @@
+.btn-link{
+    &:focus, &:visited, &:link{
+        background-color: $main-color;
+        padding: 1rem 0.5rem;
+        margin: 1rem 0;
+        color:white;
+        text-decoration: none;
+        border-radius:5px;
+        border: 1px solid $main-color;
+    }
+    &:hover{
+        background-color: white;
+        color: $main-color;
+        border: 1px solid $brd-color;
+    }
+
+}

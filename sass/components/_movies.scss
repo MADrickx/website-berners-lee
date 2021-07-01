@@ -1,0 +1,41 @@
+.c-main-movies-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-weight: normal;
+    }
+    .emphasis{
+        background-color: lightgrey;
+    }
+}
+
+.c-main-movies-content-items{
+    width: 80%;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    img{
+        border: 1px solid lightgrey;
+        width: 50%;
+    }
+}
+
+.c-main-movies-content-items-text{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        font-size: 1.4rem;
+        font-weight: normal;
+    }
+    p{
+        text-align: justify;
+    }
+
+}
