@@ -1,6 +1,5 @@
 # website-berners-lee
-## Made by : Audric Skivée
-### for BeCode
+## Made by : Audric Skivée (BeCode@hamiltons 5.32)
 
 Simple project, to learn HTML/CSS basics, I've done it with sass and node-sass transpiler.
 
@@ -35,7 +34,17 @@ Now that you're in right directory, you may start the transpiler, write :
 node-sass sass/screen.scss css/screen.css -o --watch
 ```  
 
-the --watch flag will stay put and watch your files, and every time there is a modification, it will sees it.  
+### I'll explain what the above does : 
+
+1. __*node-sass*__ : it calls the newly added package to your terminal.
+
+2. __*sass/screen.scss*__ : it's the directory from where it wil fetch the data to "give" it to the transpiler.
+
+3. __*css/screen.css*__ : it's the output directory, were the transpiled file will go.
+
+4. __*-o*__  : this flag will specify that the argument before this flag is an output directory. 
+
+5. __*--watch*__  : this flag will make node-sass stay put and watch your files, and every time there is a modification, it will sees it.  
 
 ## now ?
 
