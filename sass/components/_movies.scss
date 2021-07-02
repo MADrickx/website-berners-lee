@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    cursor: pointer;
     img{
         border: 1px solid lightgrey;
         width: 50%;
@@ -37,5 +38,4 @@
     p{
         text-align: justify;
     }
-
 }
